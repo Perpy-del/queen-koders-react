@@ -1,10 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
+/* eslint-disable react/prop-types */
 import './heroStyles.css';
 import SearchComponent from '../Search/SearchComponent';
-// import heroImg as img from '../../../src/assets/herp.webp'
 
-const HeroSection = () => {
+const HeroSection = ({setQuery}) => {
   return (
     <div className="hero-section">
       <div className='left-side'>
@@ -13,7 +11,7 @@ const HeroSection = () => {
           and stakeholders
         </h1>
         <h3>Looking for a definition?</h3>
-        <SearchComponent className={'hero-search'} />
+        <SearchComponent className={'hero-search'} setQuery={setQuery} />
       </div>
       <div className='right-side'>
         <img src="../../../src/assets/hero.webp" width='480px' />

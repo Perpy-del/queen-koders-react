@@ -143,4 +143,8 @@
     .hero-search input::placeholder {
         font-size: 24px;
     }
+
+    .hero-search input {
+        font-size: 20px;
+    }
 }
