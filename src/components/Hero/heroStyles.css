@@ -1,0 +1,109 @@
+@media (min-width: 320px) {
+  .hero-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .hero-search {
+    width: 70%;
+    background-color: #dfdcdc;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .hero-search input {
+    appearance: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    width: 80%;
+    border-radius: 50px 0 0 50px;
+    background-color: transparent;
+  }
+
+  .hero-search input::placeholder {
+    color: #858484;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left-side h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #0815c2f3;
+  }
+
+  .left-side h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #888787;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+  }
+
+  .hero-search {
+    width: 70%;
+    background-color: #dfdcdc;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .hero-search input {
+    appearance: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    width: 80%;
+    border-radius: 50px 0 0 50px;
+    background-color: transparent;
+  }
+
+  .hero-search input::placeholder {
+    color: #858484;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left-side h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #0815c2f3;
+  }
+
+  .left-side h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #888787;
+  }
+}

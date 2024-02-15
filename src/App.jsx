@@ -1,18 +1,17 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import './App.css';
-import SearchAndAddNewItem from './SearchAddItem/SearchAndAddNewItem';
-import CardContent from './Card/CardContent';
+import CardContent from './components/Card/CardContent';
+import HeaderComponent from './components/Header/HeaderComponent';
+import HeroSection from './components/Hero/HeroSection';
 
 function App() {
   return (
     <div>
-      <h1>Village Dictionary</h1>
-      <SearchAndAddNewItem />
+      <HeaderComponent />
+      <HeroSection />
       <CardContent />
     </div>
   );
 }
-
 
 export default App;
