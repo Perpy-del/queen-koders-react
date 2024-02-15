@@ -3,12 +3,12 @@
     padding: 50px 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     text-align: center;
   }
 
   .hero-search {
-    width: 70%;
+    width: 100%;
     background-color: #dfdcdc;
     display: flex;
     justify-content: space-between;
@@ -35,11 +35,11 @@
   .left-side {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
   }
 
   .left-side h1 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 500;
     padding-bottom: 30px;
     color: #0815c2f3;
@@ -47,14 +47,24 @@
 
   .left-side h3 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #888787;
+  }
+
+  .right-side img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 425px) {
+  .hero-section {
+    padding: 50px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-section {
-    padding: 80px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,46 +74,73 @@
   }
 
   .hero-search {
-    width: 70%;
-    background-color: #dfdcdc;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    border-radius: 50px;
-  }
-
-  .hero-search input {
-    appearance: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    padding: 5px 20px;
-    width: 80%;
-    border-radius: 50px 0 0 50px;
-    background-color: transparent;
-  }
-
-  .hero-search input::placeholder {
-    color: #858484;
+    width: 100%;
   }
 
   .left-side {
-    display: flex;
-    flex-direction: column;
     gap: 30px;
+    width: 90%;
+  }
+
+  .left-side h1 {
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+
+  .left-side h3 {
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 80px;
+    gap: 0px;
+  }
+
+  .hero-search {
+    width: 70%;
+  }
+
+  .left-side {
+    width: 60%;
   }
 
   .left-side h1 {
     font-size: 40px;
-    font-weight: 500;
     padding-bottom: 30px;
-    color: #0815c2f3;
   }
+}
 
-  .left-side h3 {
-    font-weight: 400;
-    font-size: 24px;
-    color: #888787;
-  }
+@media (min-width: 1440px) {
+    .left-side h1 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .hero-section {
+        padding: 80px 250px;
+    }
+
+    .left-side h1 {
+        font-size: 70px;
+    }
+
+    .left-side h3 {
+        font-size: 25px;
+    }
+
+    .right-side img {
+        width: 700px;
+    }
+
+    .hero-search {
+        height: 70px;
+    }
+
+    .hero-search input::placeholder {
+        font-size: 24px;
+    }
 }

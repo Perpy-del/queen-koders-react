@@ -17,21 +17,42 @@
   }
 }
 
+@media (min-width: 425px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+}
+
 @media (min-width: 768px) {
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 80px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
   }
 
   .header h1 {
-    color: rgb(52, 52, 241);
     font-size: 35px;
   }
+}
 
-  .pedia {
-    color: red;
+@media (min-width: 1024px) {
+  .header {
+    padding: 30px 80px;
   }
+}
+
+@media (min-width: 2560px) {
+    .header {
+        padding: 50px 250px;
+    }
+
+    .header h1 {
+        font-size: 50px;
+    }
 }
