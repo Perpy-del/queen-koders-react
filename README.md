@@ -33,7 +33,7 @@
  - [Udoka Kasie](https://github.com/UdokaSuccess)
 
  ## Deployment
- The project was done using HTML and vanilla CSS. It was deployed using Vercel. Here is the link to the deployed project.
+ The project was done using HTML, CSS, and ReactJS with Vite. It was deployed using GitHub pages and GitHub actions. Here is the link to the deployed project.
  [Queen Koders React Project](https://perpy-del.github.io/queen-koders-react)
 
  ## Screenshot of the project
