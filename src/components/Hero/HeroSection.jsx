@@ -14,7 +14,7 @@ const HeroSection = ({setQuery}) => {
         <SearchComponent className={'hero-search'} setQuery={setQuery} />
       </div>
       <div className='right-side'>
-        <img src="../../../src/assets/hero.webp" width='480px' />
+        <img src="src/assets/hero.webp" width='480px' />
       </div>
     </div>
   );
