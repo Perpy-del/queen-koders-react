@@ -34,7 +34,7 @@
 
  ## Deployment
  The project was done using HTML and vanilla CSS. It was deployed using Vercel. Here is the link to the deployed project.
- [Queen Koders React Project](https://queen-koders-ecommerce.vercel.app)
+ [Queen Koders React Project](https://perpy-del.github.io/queen-koders-react)
 
  ## Screenshot of the project
 ![QK ECommerce](./public/Screenshot.png)
