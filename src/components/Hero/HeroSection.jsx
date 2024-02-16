@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import './heroStyles.css';
 import SearchComponent from '../Search/SearchComponent';
+import heroImp from "../../../src/assets/hero.webp";
 
 const HeroSection = ({setQuery}) => {
   return (
@@ -14,7 +15,7 @@ const HeroSection = ({setQuery}) => {
         <SearchComponent className={'hero-search'} setQuery={setQuery} />
       </div>
       <div className='right-side'>
-        <img src="src/assets/hero.webp" width='480px' />
+        <img src={heroImp} width='480px' />
       </div>
     </div>
   );
